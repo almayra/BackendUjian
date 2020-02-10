@@ -1,5 +1,7 @@
-const userController=require('./userController')
+const MovieController=require('./moviesController')
+const CategoryController=require('./categoryControllers')
 
 module.exports={
-    userController
+    MovieController,
+    CategoryController
 }

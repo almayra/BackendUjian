@@ -1,8 +1,11 @@
 const mysql=require('mysql')
 
-module.exports=mysql.createConnection({
+const db=mysql.createConnection({
     host:'localhost',
     user:'root',
     password:'garuda17',
-    database:'belajarcrud'
+    database:'movieindoxxi',
+    port:'3360'
 })
+
+module.exports={db}
